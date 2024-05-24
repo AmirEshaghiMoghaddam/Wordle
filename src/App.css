@@ -1,0 +1,87 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+  color: white;
+}
+.loading {
+  font-size: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+  text-transform: uppercase;
+}
+
+.correct {
+  background-color: black;
+  color: green;
+  font-weight: 700;
+}
+
+.close {
+  background-color: black;
+  color: yellow;
+  font-weight: 500;
+}
+
+.incorrect {
+  background-color: black;
+  color: white;
+}
+
+.wrongAnswer {
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: red;
+  padding: 10px 20px;
+}
+.rightAnswer {
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  font-size: 24px;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 20px;
+}
